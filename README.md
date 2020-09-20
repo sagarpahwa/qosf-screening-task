@@ -15,7 +15,7 @@
     * Set Initial state to |00>
     * set All angles to 0
     * train using gradient descent optimizer from pennylane
-### 3. Figure out approach for producing state $|01\rangle$ + $|10\rangle$ and not $|01\rangle$ - $|10\rangle$ 
+### 3. Figure out approach for producing state |01> + |10> and not |01> - |10> 
 #### Steps that we can take to distinguish +i, -i phases i.e. (|0> + i|1>) and (|0> - i|1>)
 - Change the measurement basis to X@Y (PauliX measurement on qubit_0 and PauliY on qubit_1)
 #### Steps that we can take to distinguish +1, -1 phases i.e. (|0> + |1>) and (|0> - |1>)
